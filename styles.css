@@ -1,0 +1,16 @@
+
+
+header{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > div > h1{
+    color: aliceblue;
+}
+
+header > div > h1:hover{
+    color: aqua;
+}
