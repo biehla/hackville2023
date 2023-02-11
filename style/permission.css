@@ -33,13 +33,14 @@ button {
 }
 
 
-header{
+header {
     background-color: #8FA8EE;
     height: 100px;
     display: flex;
     align-items: center;
 }
-header > div > p{
+
+header>div>p {
     color: aliceblue;
     margin-left: 30px;
     font-size: 25px;
@@ -47,31 +48,31 @@ header > div > p{
 
 
 
-main{
+main {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-h3{
+h3 {
     color: #6E70A5;
 }
 
-.buttons-div{
+.buttons-div {
     margin-top: 60px;
     display: flex;
     gap: 50px;
 }
 
-button{
+button {
     height: 30px;
     width: 100px;
     border-radius: 30px;
     background-color: #B49AF2;
     color: white;
     border: none;
-    
+
 }
