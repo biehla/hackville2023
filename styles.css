@@ -14,3 +14,31 @@ header > div > h1{
 header > div > h1:hover{
     color: aqua;
 }
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    font-size: x-large;
+    border-color: black;
+    background-color: aliceblue;
+    color: blue;
+}
