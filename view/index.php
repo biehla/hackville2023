@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="style/styles.css">
-<script src="scripts/script.js" defer></script>
+<link rel="stylesheet" href="../style/styles.css">
+<script src="../scripts/script.js" defer></script>
 
 <main>
     <div>
@@ -10,6 +10,6 @@
     </div>
     <div class="support-div">
         <h1>Get Support Now</h1>
-        <button class="submit-button"> Get Started </button>
+        <button class="submit-button" > Get Started </button>
     </div>
 </main>

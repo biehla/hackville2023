@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$_SESSION['page'] = 'default';
+$_SESSION['page'] = 'location';
 
 if (isset($_SESSION) && isset($_SESSION['page'])) {
     if ($_SESSION['page'] == "login" && isset($_POST) && isset($_POST['username'])) {
@@ -35,6 +35,9 @@ if (isset($_SESSION) && isset($_SESSION['page'])) {
             break;
         case "login":
             include 'view/login.php';
+            break;
+        case "location":
+            include 'view/permission_page.php';
             break;
         case 'dashboard':
             include 'view/dashboard.php';
