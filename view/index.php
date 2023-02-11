@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="style/styles.css">
+<script src="scripts/script.js" defer></script>
+
 <main>
     <div>
         <h1> Match with people  that can explain technology down to the basics, in a simple format</h1>
