@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$_SESSION['page'] = 'login';
+$_SESSION['page'] = 'default';
 
 if (isset($_SESSION) && isset($_SESSION['page'])) {
     if ($_SESSION['page'] == "login" && isset($_POST) && isset($_POST['username'])) {
@@ -21,6 +21,10 @@ if (isset($_SESSION) && isset($_SESSION['page'])) {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Nunito:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php
