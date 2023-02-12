@@ -1,0 +1,114 @@
+h1,
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6,
+button,
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 19px;
+}
+
+button {
+    font-size: 19px;
+}
+
+
+header {
+    background-color: #8FA8EE;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header>div>p {
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    color: #6E70A5;
+}
+
+.buttons-div {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #B49AF2;
+    color: white;
+    border: none;
+    font-size: 10px;
+
+}
+
+.person{
+    border: solid 5px #8FA8EE ;
+    width: 250px;
+    height: 420px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.person > img{
+    height: 150px;
+    width: 130px;
+}
+.contact-info{
+    background-color: #8FA8EE;
+}
+
+.person-info > p{
+    text-align: center;
+    color: #6E70A5;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+
+.profiles{
+    display: flex;
+    justify-content: row;
+    gap: 70px;
+}
