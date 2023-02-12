@@ -32,6 +32,10 @@ button {
     font-size: 19px;
 }
 
+html {
+    overflow: auto;
+}
+
 
 header {
     background-color: #8FA8EE;
